@@ -30,6 +30,6 @@ function date(){
 	}
 }
 function mail(){
-	alert('Проверка на почту. Ответ: '+/.+@.+\..[a-z]+/.test(inp.value));
+	alert('Проверка на почту. Ответ: '+/.+@.+\.[a-z]+$/.test(inp.value));
 }
 
