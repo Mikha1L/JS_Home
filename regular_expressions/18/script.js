@@ -1,9 +1,4 @@
 let inp = document.querySelector('#inp');
-let b1 = document.querySelector('#b1');
-let b2 = document.querySelector('#b2');
-let b3 = document.querySelector('#b3');
-let b4 = document.querySelector('#b4');
-let b5 = document.querySelector('#b5');
 
 function http(){
 	alert('Проверка на http и https. Ответ: '+/^http:|^https:/.test(inp.value));
