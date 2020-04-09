@@ -1,0 +1,23 @@
+textarea{
+	width: 400px;
+	height: 200px;
+	resize: none;
+}
+
+table {
+	position: absolute;
+    width: 600px;
+	height: 600px;
+    background: white;
+    color: black;
+    border-spacing: 1px;
+   }
+td, th {
+	word-break: break-all;
+	width: 200px;
+	height: 200px;
+    background: yellow;
+    padding: 5px;
+   }
+  
+ 
