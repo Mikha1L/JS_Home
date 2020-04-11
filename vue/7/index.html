@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>7</title>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	
+	<body>	
+	
+	<div id="app">
+		<p v-if="day == 1">Понедельник</p>
+		<p v-if="day == 2">Вторник</p>
+		<p v-if="day == 3">Среда</p>
+		<p v-if="day == 4">Четверг</p>
+		<p v-if="day == 5">Пятница</p>
+		<p v-if="day == 6">Суббота</p>
+		<p v-if="day == 0">Воскресенье</p>
+	</div>
+
+	<div id="app1">
+		<p v-if="age <= 18">подросток</p>
+		<p v-else-if="age >= 19 && age <=25">молодой человек</p>
+		<p v-else-if="age > 25">мужчина</p>
+		<p v-else>что-то пошло не так</p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+	
+</html>
