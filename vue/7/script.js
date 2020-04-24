@@ -13,3 +13,16 @@ let app1 = new Vue({
 		age: 19, 
 	},
 });
+
+let app2 = new Vue({
+	el: '#app2',
+	data: {
+		sh: true, 
+	},
+	methods:{
+		show: function(){
+			this.sh = this.sh ? false : true;
+		}
+	}
+});
+

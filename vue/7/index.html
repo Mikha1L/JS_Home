@@ -23,6 +23,21 @@
 		<p v-else-if="age > 25">мужчина</p>
 		<p v-else>что-то пошло не так</p>
 	</div>
+	
+	<br><br><br>
+	
+	<div id="app2">
+	<button v-on:click = "show()">Show</button>
+		<template v-if="sh == true">
+			<p>Четверг</p>
+			<p>Пятница</p>
+			<p>Суббота</p>
+		</template>
+	</div>
+	
+	
+	
+	
 	<script type="text/javascript" src="script.js"></script>
 	</body>
 	
