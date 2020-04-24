@@ -11,3 +11,21 @@ let app = new Vue({
 		}
 	}
 });
+
+let app1 = new Vue({
+	el: '#app1',
+	data: {
+		res: '',
+	},
+	methods: {
+		left: function() {
+			this.res = 'left';
+		},
+		middle: function() {
+			this.res = 'middle';
+		},
+		right: function() {
+			this.res = 'right';
+		}
+	}
+});
